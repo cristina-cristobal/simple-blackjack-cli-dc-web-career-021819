@@ -39,10 +39,11 @@ end
 def hit?(card_total)
   # code hit? here
   prompt_user
-  get_user_input
+  input = get_user_input
   if input = "s"
   elsif input = "h"
     deal_card
+
 
 end
 
