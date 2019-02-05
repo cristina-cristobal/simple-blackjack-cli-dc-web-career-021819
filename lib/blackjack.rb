@@ -60,5 +60,10 @@ end
 
 def runner
   # code runner here
-  
+  welcome
+  initial_round
+  get_user_input
+  get_user_input
+  if card_total > 21
+  end_game
 end
