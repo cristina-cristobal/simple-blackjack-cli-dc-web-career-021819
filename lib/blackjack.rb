@@ -28,10 +28,11 @@ def end_game(card_total)
 end
 
 def initial_round
+  # code #initial_round here
   card_one = deal_card
-  card_two = deal_card
+  card_two = deal card
   card_total = card_one + card_two
-  display_card_total(card_total) #once you have figured out the sum of your two cards, you can pass the total in as an argumnt so your phrase is displayed.
+  display_card_total(card_total)
   return card_total
 end
 
